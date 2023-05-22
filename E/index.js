@@ -1,3 +1,50 @@
+// Вариант 1. Больше секунды 	Превышен лимит времени (TLE)
+// module.exports = function (n, k) {
+//   let result = [];
+
+//   for (let i = Math.pow(10, k - 1); i < Math.pow(10, k); i++) {
+//     const digits = i.toString().split("");
+
+//     if (isNonDescending(digits) && sum(digits) === n) {
+//       result.push(i);
+//     }
+//   }
+
+//   if (result.length > 0) {
+//     result = [
+//       result.length,
+
+//       result[0].toString(),
+
+//       result[result.length - 1].toString(),
+//     ];
+//   } else {
+//     result = [0];
+//   }
+
+//   return result;
+// };
+
+// function isNonDescending(digits) {
+//   for (let i = 0; i < digits.length - 1; i++) {
+//     if (+digits[i] > +digits[i + 1]) {
+//       return false;
+//     }
+//   }
+
+//   return true;
+// }
+
+// function sum(digits) {
+//   let total = 0;
+
+//   for (let i = 0; i < digits.length; i++) {
+//     total += +digits[i];
+//   }
+
+//   return total;
+// }
+
 // function findAll(n, k) {
 //   let result = [0];
 //   const digits = [];
