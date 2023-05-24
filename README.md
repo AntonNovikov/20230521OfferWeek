@@ -5,4 +5,4 @@ https://yandex.ru/project/events/wo-frontend-0523?from=calendar
 * B - 40
 * C - 40
 * D - 40
-* E - 80 - [x]
+- [x] * E - 80 
